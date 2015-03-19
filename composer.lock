@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3f2eeffb9cfdeed7ac3d876e4e31fde",
+    "hash": "4dd3d6335e012393d3c115d0e06ebc07",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1120,16 +1120,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "dev-master",
+            "version": "1.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "dd9a2b033a797d4a4a7a1cff0e97b8901519518e"
+                "reference": "e0014a40f6a152293ee63d97b59d52e78ce7e098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/dd9a2b033a797d4a4a7a1cff0e97b8901519518e",
-                "reference": "dd9a2b033a797d4a4a7a1cff0e97b8901519518e",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/e0014a40f6a152293ee63d97b59d52e78ce7e098",
+                "reference": "e0014a40f6a152293ee63d97b59d52e78ce7e098",
                 "shasum": ""
             },
             "require": {
@@ -1162,7 +1162,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2015-03-19 11:05:52"
+            "time": "2015-03-19 11:05:13"
         }
     ],
     "packages-dev": [
@@ -1639,7 +1639,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "webmozart/assert": 20
+        "webmozart/assert": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
