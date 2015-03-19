@@ -20,13 +20,18 @@
             "MinkExtra\\Tests\\": "tests"
         }
     },
-    "require": {
+    "require-dev": {
         "behat/mink": "~1.6",
         "phpunit/phpunit": "~4.5",
         "beberlei/assert": "~2.3",
+        "behat/mink-goutte-driver": "~1.0",
         "webmozart/assert": "1.0.0-beta"
     },
-    "require-dev": {
-        "behat/mink-goutte-driver": "~1.0"
+    "suggest": {
+        "behat/mink": "",
+        "phpunit/phpunit": "",
+        "beberlei/assert": "",
+        "behat/mink-goutte-driver": "",
+        "webmozart/assert": ""
     }
 }
