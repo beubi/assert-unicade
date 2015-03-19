@@ -24,7 +24,7 @@
         "behat/mink": "~1.6",
         "phpunit/phpunit": "~4.5",
         "beberlei/assert": "~2.3",
-        "webmozart/assert": "~1.0@beta"
+        "webmozart/assert": "dev-master"
     },
     "require-dev": {
         "behat/mink-goutte-driver": "~1.0"
