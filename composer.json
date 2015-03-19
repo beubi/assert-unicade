@@ -1,0 +1,22 @@
+{
+    "name": "fonsecas72/mink-extra-assertions",
+    "description": "Get extra assertions for your mink tests (including phpunit ones)",
+    "keywords": ["mink", "assertions", "phpunit", "custom", "assert"],
+    "autoload": {
+        "psr-4": {
+            "AssertHandler\\": "src"
+            }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AssertHandler\\Tests\\": "tests"
+            }
+    },
+    "require": {
+        "behat/mink": "~1.6",
+        "phpunit/phpunit": "~4.5"
+    },
+    "require-dev": {
+        "behat/mink-goutte-driver": "~1.0"
+    }
+}
