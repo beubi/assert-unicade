@@ -11,21 +11,22 @@ With Composer:
 
 ### Usage
 
+
 PHPUnit Facade
 
 ```php
-\MinkExtraAssertion\MinkExtraAssertion::phpunit()->assertTrue(true);
+\MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
 ```
 
 WebAssert
 
 ```php
-\MinkExtraAssertion\MinkExtraAssertion::webAssert($mink)->pageTextContains('text')
+\MinkExtra\ExtraAssertion::webAssert($mink)->pageTextContains('text')
 ```
 
 Custom Assert
 
 ```php
-\MinkExtraAssertion\MinkExtraAssertion::webAssert($mink)->elementIsVisible('xpath', 'xpath');
+\MinkExtra\ExtraAssertion::webAssert($mink)->elementIsVisible('xpath', 'xpath');
 
 ```
