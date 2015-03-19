@@ -16,6 +16,15 @@ class MinkTest extends MinkTestCase
     {
         \MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
     }
+    public function testAssertBeberleiFacade()
+    {
+        \MinkExtra\ExtraAssertion::beberlei()->boolean(true);
+        \MinkExtra\ExtraAssertion::beberlei()->digit('1');
+    }
+    public function testAssertWebmozartFacade()
+    {
+        \MinkExtra\ExtraAssertion::webmozart()->startsWith('fooBar', 'foo');
+    }
     public function testAssertWebAssert()
     {
         $this->assertInstanceOf(

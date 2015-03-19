@@ -14,7 +14,9 @@
     },
     "require": {
         "behat/mink": "~1.6",
-        "phpunit/phpunit": "~4.5"
+        "phpunit/phpunit": "~4.5",
+        "beberlei/assert": "~2.3",
+        "webmozart/assert": "~1.0@beta"
     },
     "require-dev": {
         "behat/mink-goutte-driver": "~1.0"

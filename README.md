@@ -12,13 +12,25 @@ With Composer:
 ### Usage
 
 
-PHPUnit Facade
+PHPUnit Assert Facade
 
 ```php
 \MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
 ```
 
-WebAssert
+Beberlei Assert Facade
+
+```php
+\MinkExtra\ExtraAssertion::beberlei()->digit('1');
+```
+
+Webmozart Assert Facade
+
+```php
+\MinkExtra\ExtraAssertion::webmozart()->startsWith('fooBar', 'foo');
+```
+
+WebAssert Wrapper
 
 ```php
 \MinkExtra\ExtraAssertion::webAssert($mink)->pageTextContains('text')

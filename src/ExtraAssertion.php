@@ -14,6 +14,20 @@ class ExtraAssertion
         return new PHPUnitFacade();
     }
     /**
+     * @return \Assert\Assertion
+     */
+    public static function beberlei()
+    {
+        return new BeberleiFacade();
+    }
+    /**
+     * @return \Webmozart\Assert\Assert
+     */
+    public static function webmozart()
+    {
+        return new WebmozartFacade();
+    }
+    /**
      * @return CustomAssert
      */
     public static function webAssert(Mink $minkContext)
