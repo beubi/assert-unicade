@@ -1,16 +1,24 @@
 {
     "name": "fonsecas72/mink-extra-assertions",
+    "type": "library",
     "description": "Get extra assertions for your mink tests (including phpunit ones)",
     "keywords": ["mink", "assertions", "phpunit", "custom", "assert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hugo Fonseca",
+            "email": "hdtfonseca@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "MinkExtra\\": "src"
-            }
+        }
     },
     "autoload-dev": {
         "psr-4": {
             "MinkExtra\\Tests\\": "tests"
-            }
+        }
     },
     "require": {
         "behat/mink": "~1.6",
