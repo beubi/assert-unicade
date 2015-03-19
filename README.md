@@ -17,13 +17,13 @@ PHPUnit Facade
 \MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
 ```
 
-WebAssert
+WebAssert Wrapper
 
 ```php
 \MinkExtra\ExtraAssertion::webAssert($mink)->pageTextContains('text')
 ```
 
-Custom Assert
+Custom Asserts
 
 ```php
 \MinkExtra\ExtraAssertion::webAssert($mink)->elementIsVisible('xpath', 'xpath');
