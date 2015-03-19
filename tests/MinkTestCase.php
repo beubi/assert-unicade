@@ -1,10 +1,10 @@
 <?php
 
-namespace AssertHandler\Tests;
+namespace MinkExtra\Tests;
 
 use Behat\Mink\Mink;
 use Behat\Mink\Session;
-use AssertHandler\AssertHandler;
+use MinkExtra\ExtraAssertion;
 use Behat\Mink\Driver\GoutteDriver;
 use Goutte\Client;
 
@@ -18,8 +18,8 @@ class MinkTestCase extends TestCase
 {
     /** @var Mink */
     protected $mink;
-    /** @var AssertHandler */
-    protected $assertHandler;
+    /** @var ExtraAssertion */
+    protected $extraAssertion;
     
     protected static $url = 'http://www.google.com/';
 
@@ -43,7 +43,7 @@ class MinkTestCase extends TestCase
     private function initMinkTesting()
     {
         $this->mink = $this->startMink();
-        $this->assertHandler = new AssertHandler();
+        $this->extraAssertion = new ExtraAssertion();
     }
 
     /**

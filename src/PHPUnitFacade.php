@@ -1,6 +1,6 @@
 <?php
 
-namespace AssertHandler;
+namespace MinkExtra;
 
 class PHPUnitFacade extends \PHPUnit_Framework_Assert
 {

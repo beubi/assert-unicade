@@ -1,6 +1,6 @@
 <?php
 
-namespace AssertHandler\Tests;
+namespace MinkExtra\Tests;
 
 /**
  * @package Beubi\GeopredialBundle\Tests\View

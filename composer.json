@@ -4,12 +4,12 @@
     "keywords": ["mink", "assertions", "phpunit", "custom", "assert"],
     "autoload": {
         "psr-4": {
-            "AssertHandler\\": "src"
+            "MinkExtra\\": "src"
             }
     },
     "autoload-dev": {
         "psr-4": {
-            "AssertHandler\\Tests\\": "tests"
+            "MinkExtra\\Tests\\": "tests"
             }
     },
     "require": {

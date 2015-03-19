@@ -1,10 +1,10 @@
 <?php
 
-namespace AssertHandler;
+namespace MinkExtra;
 
 use Behat\Mink\Mink;
 
-class AssertHandler
+class ExtraAssertion
 {
     /**
      * @return \PHPUnit_Framework_Assert

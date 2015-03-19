@@ -14,18 +14,18 @@ With Composer:
 PHPUnit Facade
 
 ```php
-\AssertHandler\AssertHandler::phpunit()->assertTrue(true);
+\MinkExtraAssertion\MinkExtraAssertion::phpunit()->assertTrue(true);
 ```
 
 WebAssert
 
 ```php
-\AssertHandler\AssertHandler::webAssert($mink)->pageTextContains('text')
+\MinkExtraAssertion\MinkExtraAssertion::webAssert($mink)->pageTextContains('text')
 ```
 
 Custom Assert
 
 ```php
-\AssertHandler\AssertHandler::webAssert($mink)->elementIsVisible('xpath', 'xpath');
+\MinkExtraAssertion\MinkExtraAssertion::webAssert($mink)->elementIsVisible('xpath', 'xpath');
 
 ```

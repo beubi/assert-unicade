@@ -1,6 +1,6 @@
 <?php
 
-namespace AssertHandler\Tests;
+namespace MinkExtra\Tests;
 
 class MinkTest extends MinkTestCase
 {
@@ -8,20 +8,26 @@ class MinkTest extends MinkTestCase
     {
         $this->assertInstanceOf('Behat\Mink\Mink', $this->mink);
     }
-    public function testAssertHandlerExists()
+    public function testMinkExtraAssertionExists()
     {
-        $this->assertInstanceOf('AssertHandler\AssertHandler', $this->assertHandler);
+        $this->assertInstanceOf('MinkExtra\ExtraAssertion', $this->extraAssertion);
     }
     public function testAssertPhpunitFacade()
     {
-        \AssertHandler\AssertHandler::phpunit()->assertTrue(true);
+        \MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
     }
     public function testAssertWebAssert()
     {
-        $this->assertInstanceOf('Behat\Mink\WebAssert', \AssertHandler\AssertHandler::webAssert($this->mink));
+        $this->assertInstanceOf(
+            'Behat\Mink\WebAssert',
+            \MinkExtra\ExtraAssertion::webAssert($this->mink)
+        );
     }
     public function testAssertCustomMethodAssert()
     {
-        $this->assertTrue(in_array('elementIsVisible', get_class_methods(\AssertHandler\AssertHandler::webAssert($this->mink))));
+        $this->assertTrue(in_array(
+            'elementIsVisible',
+            get_class_methods(\MinkExtra\ExtraAssertion::webAssert($this->mink)))
+        );
     }
 }

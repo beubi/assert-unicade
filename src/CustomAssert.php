@@ -1,6 +1,6 @@
 <?php
 
-namespace AssertHandler;
+namespace MinkExtra;
 
 use Behat\Mink\WebAssert;
 
