@@ -1,15 +1,15 @@
-# Extra Assertions for Mink
+# Single Interface for assertions
 
-Get extra assertion for your Mink tests
+One single way to call assertions
 
-[![Build Status](https://travis-ci.org/fonsecas72/mink-extra-assertions.svg?branch=master)](https://travis-ci.org/fonsecas72/mink-extra-assertions)  [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fonsecas72/mink-extra-assertions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fonsecas72/mink-extra-assertions/?branch=master)   [![Dependency Status](https://www.versioneye.com/user/projects/550aea814996ebdd3500047f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550aea814996ebdd3500047f)
+[![Build Status](https://travis-ci.org/fonsecas72/assert-unicade.svg?branch=master)](https://travis-ci.org/fonsecas72/assert-unicade)  [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fonsecas72/assert-unicade/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fonsecas72/assert-unicade/?branch=master)   [![Dependency Status](https://www.versioneye.com/user/projects/550aea814996ebdd3500047f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/550aea814996ebdd3500047f)
 
-[![Latest Stable Version](https://poser.pugx.org/fonsecas72/mink-extra-assertions/v/stable.svg)](https://packagist.org/packages/fonsecas72/mink-extra-assertions) [![Total Downloads](https://poser.pugx.org/fonsecas72/mink-extra-assertions/downloads.svg)](https://packagist.org/packages/fonsecas72/mink-extra-assertions) [![Latest Unstable Version](https://poser.pugx.org/fonsecas72/mink-extra-assertions/v/unstable.svg)](https://packagist.org/packages/fonsecas72/mink-extra-assertions) [![License](https://poser.pugx.org/fonsecas72/mink-extra-assertions/license.svg)](https://packagist.org/packages/fonsecas72/mink-extra-assertions)
+[![Latest Stable Version](https://poser.pugx.org/fonsecas72/assert-unicade/v/stable.svg)](https://packagist.org/packages/fonsecas72/assert-unicade) [![Total Downloads](https://poser.pugx.org/fonsecas72/assert-unicade/downloads.svg)](https://packagist.org/packages/fonsecas72/assert-unicade) [![Latest Unstable Version](https://poser.pugx.org/fonsecas72/assert-unicade/v/unstable.svg)](https://packagist.org/packages/fonsecas72/assert-unicade) [![License](https://poser.pugx.org/fonsecas72/assert-unicade/license.svg)](https://packagist.org/packages/fonsecas72/assert-unicade)
 
 ### Installation
 
 ```
-  composer require --dev fonsecas72/mink-extra-assertions dev-master
+  composer require --dev fonsecas72/assert-unicade dev-master
 ```
 
 ### Usage
