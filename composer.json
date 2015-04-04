@@ -28,10 +28,8 @@
         "webmozart/assert": "1.0.0-beta"
     },
     "suggest": {
-        "behat/mink": "",
         "phpunit/phpunit": "",
         "beberlei/assert": "",
-        "behat/mink-goutte-driver": "",
         "webmozart/assert": ""
     }
 }
