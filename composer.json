@@ -1,5 +1,5 @@
 {
-    "name": "fonsecas72/mink-extra-assertions",
+    "name": "fonsecas72/assert-unicade",
     "type": "library",
     "description": "Get extra assertions for your mink tests (including phpunit ones)",
     "keywords": ["mink", "assertions", "phpunit", "custom", "assert"],
