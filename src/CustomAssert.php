@@ -1,6 +1,6 @@
 <?php
 
-namespace MinkExtra;
+namespace UnicadeAssert;
 
 use Behat\Mink\WebAssert;
 

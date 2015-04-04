@@ -18,30 +18,30 @@ One single way to call assertions
 PHPUnit Assert Facade
 
 ```php
-\MinkExtra\ExtraAssertion::phpunit()->assertTrue(true);
+\UnicadeAssert\Useup::phpunit()->assertTrue(true);
 ```
 
 Beberlei Assert Facade
 
 ```php
-\MinkExtra\ExtraAssertion::beberlei()->digit('1');
+\UnicadeAssert\Useup::beberlei()->digit('1');
 ```
 
 Webmozart Assert Facade
 
 ```php
-\MinkExtra\ExtraAssertion::webmozart()->startsWith('fooBar', 'foo');
+\UnicadeAssert\Useup::webmozart()->startsWith('fooBar', 'foo');
 ```
 
 WebAssert Wrapper
 
 ```php
-\MinkExtra\ExtraAssertion::webAssert($mink)->pageTextContains('text')
+\UnicadeAssert\Useup::webAssert($mink)->pageTextContains('text')
 ```
 
 Custom Asserts
 
 ```php
-\MinkExtra\ExtraAssertion::webAssert($mink)->elementIsVisible('xpath', 'xpath');
+\UnicadeAssert\Useup::webAssert($mink)->elementIsVisible('xpath', 'xpath');
 
 ```

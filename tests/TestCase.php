@@ -1,38 +1,17 @@
 <?php
 
-namespace MinkExtra\Tests;
+namespace UnicadeAssert\Tests;
 
-/**
- * @package Beubi\GeopredialBundle\Tests\View
- * @author  Ubiprism Lda. / be.ubi <contact@beubi.com>
- *
- */
+use UnicadeAssert\Useup;
+
 class TestCase extends \PHPUnit_Framework_TestCase
 {
+    /** @var Useup */
+    protected $useup;
+
     public function setup()
     {
+        $this->useup = new Useup();
         parent::setUp();
-    }
-
-    public function tearDown()
-    {
-        parent::tearDown();
-    }
-
-    protected static function wasDebugModeRequested()
-    {
-        $cliArgs = implode(' ', $_SERVER['argv']);
-        if (strpos($cliArgs, '--debug') === false) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
-    protected static function printDebugMsg($msg)
-    {
-        if (self::wasDebugModeRequested()) {
-            echo 'DEBUG: '.$msg.PHP_EOL;
-        }
     }
 }

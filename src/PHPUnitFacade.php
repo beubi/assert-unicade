@@ -1,6 +1,6 @@
 <?php
 
-namespace MinkExtra;
+namespace UnicadeAssert;
 
 class PHPUnitFacade extends \PHPUnit_Framework_Assert
 {

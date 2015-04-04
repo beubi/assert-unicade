@@ -1,10 +1,8 @@
 <?php
 
-namespace MinkExtra;
+namespace UnicadeAssert;
 
-use Behat\Mink\Mink;
-
-class ExtraAssertion
+class Useup
 {
     /**
      * @return \PHPUnit_Framework_Assert
@@ -30,7 +28,7 @@ class ExtraAssertion
     /**
      * @return CustomAssert
      */
-    public static function webAssert(Mink $minkContext)
+    public static function webAssert(\Behat\Mink\Mink $minkContext)
     {
         return new CustomAssert($minkContext->getSession());
     }

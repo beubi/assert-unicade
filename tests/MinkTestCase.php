@@ -1,25 +1,16 @@
 <?php
 
-namespace MinkExtra\Tests;
+namespace UnicadeAssert\Tests;
 
 use Behat\Mink\Mink;
 use Behat\Mink\Session;
-use MinkExtra\ExtraAssertion;
 use Behat\Mink\Driver\GoutteDriver;
 use Goutte\Client;
 
-
-/**
- * @package Beubi\GeopredialBundle\Tests\View
- * @author  Ubiprism Lda. / be.ubi <contact@beubi.com>
- *
- */
 class MinkTestCase extends TestCase
 {
     /** @var Mink */
     protected $mink;
-    /** @var ExtraAssertion */
-    protected $extraAssertion;
     
     protected static $url = 'http://www.google.com/';
 
@@ -43,7 +34,6 @@ class MinkTestCase extends TestCase
     private function initMinkTesting()
     {
         $this->mink = $this->startMink();
-        $this->extraAssertion = new ExtraAssertion();
     }
 
     /**

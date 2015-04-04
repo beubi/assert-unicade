@@ -1,6 +1,6 @@
 <?php
 
-namespace MinkExtra;
+namespace UnicadeAssert;
 
 class BeberleiFacade extends \Assert\Assertion
 {

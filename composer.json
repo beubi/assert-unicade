@@ -1,8 +1,8 @@
 {
     "name": "fonsecas72/assert-unicade",
     "type": "library",
-    "description": "Get extra assertions for your mink tests (including phpunit ones)",
-    "keywords": ["mink", "assertions", "phpunit", "custom", "assert"],
+    "description": "Unicade - one place for all your assertions",
+    "keywords": ["assertions", "assert", "facade", "uni"],
     "license": "MIT",
     "authors": [
         {
@@ -12,12 +12,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "MinkExtra\\": "src"
+            "UnicadeAssert\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MinkExtra\\Tests\\": "tests"
+            "UnicadeAssert\\Tests\\": "tests"
         }
     },
     "require-dev": {
