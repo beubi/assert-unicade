@@ -2,7 +2,7 @@
 
 namespace UnicadeAssert;
 
-class PHPUnitFacade extends \PHPUnit_Framework_Assert
+class PHPUnitFacade extends \PHPUnit\Framework\Assert
 {
     protected function fire($methodName, $args)
     {
