@@ -5,7 +5,7 @@ namespace UnicadeAssert;
 class Useup
 {
     /**
-     * @return \PHPUnit_Framework_Assert
+     * @return \PHPUnit\Framework\Assert
      */
     public static function phpunit()
     {
